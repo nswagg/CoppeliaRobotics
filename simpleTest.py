@@ -1,7 +1,8 @@
 # Make sure to have the server side running in CoppeliaSim: 
 # in a child script of a CoppeliaSim scene, add following command
 # to be executed just once, at simulation start:
-#
+# To be put into a threaded, Lua, child script of an object in the scene
+# To be put into a threaded, Lua, child script of an object in the scene
 # simRemoteApi.start(19999)
 #
 # then start simulation, and run this program.
